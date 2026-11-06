@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MobileGearX – Tech Review. Amazon Deals.</title>
+  <meta name="description" content="Discover honest tech product reviews, curated recommendations, and top Amazon deals for earbuds, headphones, smartwatches, chargers, and accessories.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Affiliate Notice Bar -->
+  <aside class="top-notice-bar" aria-label="Affiliate Notice">
+    <div class="container notice-inner">
+      <div>
+        <span class="notice-badge">AFFILIATE DISCLOSURE</span>
+        <span class="notice-disclaimer">As an Amazon Associate I earn from qualifying purchases.</span>
+      </div>
+      <div>
+        <a href="about.html#affiliate-disclosure" class="notice-link">Learn how we review products &rarr;</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Logo & Brand -->
+      <a href="index.html" class="brand-link" aria-label="MobileGearX Home">
+        <div class="brand-logo">
+          <div class="brand-icon">X</div>
+          <span class="brand-name">MobileGear<span class="brand-highlight">X</span></span>
+        </div>
+        <span class="brand-tagline">Tech Review. Amazon Deals.</span>
+      </a>
+
+      <!-- Functional Global Search -->
+      <div class="header-search">
+        <form class="header-search-form" role="search">
+          <input type="search" class="header-search-input" placeholder="Search earbuds, watches, chargers..." aria-label="Search tech products">
+          <button type="submit" class="header-search-btn" aria-label="Submit search">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-text-content">
+        <div class="hero-badge">
+          <span>★</span> Curated Technology Recommendations
+        </div>
+        <h1 class="hero-title">Discover the Best <span class="hero-highlight">Tech Products.</span></h1>
+        <p class="hero-description">
+          Unbiased product breakdowns, real-world specifications, and verified Amazon deals. We research and review today's most reliable tech gear so you can make confident, smart buying decisions.
+        </p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn btn-primary">Explore Products</a>
+          <a href="#featured-products" class="btn btn-light">Read Reviews</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="images/hero-tech.svg" alt="MobileGearX Tech Showcase featuring Smartwatch, ANC Headphones, and Earbuds" class="hero-img" width="560" height="420">
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="section-padding" id="featured-products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Top Hand-Picked Gear</span>
+        <h2 class="section-title">Featured Tech Products</h2>
+        <p class="section-desc">Our top-rated audio gadgets, wearables, and fast-charging essentials verified for performance and value on Amazon.</p>
+      </div>
+
+      <!-- Injected dynamically via script.js -->
+      <div class="products-grid" id="featuredProductsGrid"></div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="products.html" class="btn btn-outline" style="padding: 12px 28px; font-size: 1rem;">
+          View All Products in Catalog &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="section-padding" style="background-color: var(--color-white); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Explore By Category</span>
+        <h2 class="section-title">Popular Product Categories</h2>
+        <p class="section-desc">Quickly find the exact technology you need across our organized product categories.</p>
+      </div>
+
+      <div class="categories-grid">
+        <!-- 1. Wireless Earbuds -->
+        <a href="products.html?category=Wireless%20Earbuds" class="category-card">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12v6c0 1.66 1.34 3 3 3h2v-8H4v-1c0-4.41 3.59-8 8-8s8 3.59 8 8v1h-3v8h2c1.66 0 3-1.34 3-3v-6c0-5.52-4.48-10-10-10z"/>
+            </svg>
+          </div>
+          <h3 class="category-name">Wireless Earbuds</h3>
+          <span class="category-sub">ANC &amp; True Wireless</span>
+        </a>
+
+        <!-- 2. Headphones -->
+        <a href="products.html?category=Headphones" class="category-card">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M3 13v6c0 1.1.9 2 2 2h2v-8H4v-1c0-4.42 3.58-8 8-8s8 3.58 8 8v1h-3v8h2c1.1 0 2-.9 2-2v-6c0-5.52-4.48-10-10-10S3 7.48 3 13z"/>
+            </svg>
+          </div>
+          <h3 class="category-name">Headphones</h3>
+          <span class="category-sub">Over-Ear &amp; Gaming</span>
+        </a>
+
+        <!-- 3. Smart Watches -->
+        <a href="products.html?category=Smart%20Watches" class="category-card">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M15 1H9v3h6V1zm-3 5c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm3 17H9v3h6v-3z"/>
+            </svg>
+          </div>
+          <h3 class="category-name">Smart Watches</h3>
+          <span class="category-sub">AMOLED &amp; Fitness</span>
+        </a>
+
+        <!-- 4. Mobile Accessories -->
+        <a href="products.html?category=Mobile%20Accessories" class="category-card">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/>
+            </svg>
+          </div>
+          <h3 class="category-name">Mobile Accessories</h3>
+          <span class="category-sub">Mounts &amp; Tough Cases</span>
+        </a>
+
+        <!-- 5. Chargers -->
+        <a href="products.html?category=Chargers" class="category-card">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+            </svg>
+          </div>
+          <h3 class="category-name">Chargers</h3>
+          <span class="category-sub">GaN &amp; Power Banks</span>
+        </a>
+
+        <!-- 6. Computer Accessories -->
+        <a href="products.html?category=Computer%20Accessories" class="category-card">
+          <div class="category-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"/>
+            </svg>
+          </div>
+          <h3 class="category-name">Computer Accessories</h3>
+          <span class="category-sub">Keyboards &amp; Mice</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose MobileGearX -->
+  <section class="section-padding why-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">The MobileGearX Advantage</span>
+        <h2 class="section-title">Why Choose MobileGearX?</h2>
+        <p class="section-desc">We simplify the cluttered tech market into clear, transparent recommendations.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon-wrap">📋</div>
+          <h3 class="feature-title">Helpful Product Information</h3>
+          <p class="feature-text">Clear specs, genuine pros &amp; cons, and breakdown summaries so you understand what each gadget truly offers before purchasing.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">🔍</div>
+          <h3 class="feature-title">Easy Product Discovery</h3>
+          <p class="feature-text">Search, category filters, and sorting tools help you discover the exact mobile accessory, audio gear, or charger you need in seconds.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">⚡</div>
+          <h3 class="feature-title">Technology-Focused Recommendations</h3>
+          <p class="feature-text">Every product featured is curated with an eye for actual build quality, real battery endurance, and long-term daily usability.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">🛒</div>
+          <h3 class="feature-title">Convenient Amazon Shopping Links</h3>
+          <p class="feature-text">Direct 1-click links to official Amazon product pages ensure secure transactions, dependable Prime shipping, and verified purchase protection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Buying Guides -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Expert Advice</span>
+        <h2 class="section-title">Latest Buying Guides</h2>
+        <p class="section-desc">Practical advice and smart shopping strategies to help you get the most value for your tech budget.</p>
+      </div>
+
+      <div class="guides-grid">
+        <!-- Guide 1 -->
+        <article class="guide-card">
+          <div class="guide-img-box">
+            <img src="images/guide-earbuds.svg" alt="Wireless Earbuds Buying Guide" loading="lazy">
+          </div>
+          <div class="guide-body">
+            <span class="guide-tag">Audio Guide</span>
+            <h3 class="guide-title">How to Pick the Best Wireless Earbuds in 2026</h3>
+            <p class="guide-summary">From active noise cancellation depth and multipoint connectivity to battery longevity, here is what you need to look for before hitting buy.</p>
+            <div class="guide-meta">
+              <span>5 min read</span>
+              <a href="products.html?category=Wireless%20Earbuds">Explore Earbuds &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Guide 2 -->
+        <article class="guide-card">
+          <div class="guide-img-box">
+            <img src="images/guide-charger.svg" alt="GaN Fast Charging Guide" loading="lazy">
+          </div>
+          <div class="guide-body">
+            <span class="guide-tag">Charging Guide</span>
+            <h3 class="guide-title">GaN Fast Charging Standards Demystified</h3>
+            <p class="guide-summary">Understand the difference between USB-C Power Delivery 3.0, PPS, and GaN semiconductor efficiency so you never fry your battery.</p>
+            <div class="guide-meta">
+              <span>4 min read</span>
+              <a href="products.html?category=Chargers">Explore Chargers &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Guide 3 -->
+        <article class="guide-card">
+          <div class="guide-img-box">
+            <img src="images/guide-watch.svg" alt="Smartwatch vs Fitness Tracker Guide" loading="lazy">
+          </div>
+          <div class="guide-body">
+            <span class="guide-tag">Wearables Guide</span>
+            <h3 class="guide-title">Smartwatch vs Fitness Tracker: Which Is Right For You?</h3>
+            <p class="guide-summary">Compare battery endurance, notification interaction, standalone GPS capabilities, and overall everyday practicality.</p>
+            <div class="guide-meta">
+              <span>6 min read</span>
+              <a href="products.html?category=Smart%20Watches">Explore Wearables &rarr;</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 12px;">
+            <div class="brand-icon">X</div>
+            <span class="brand-name">MobileGear<span class="brand-highlight">X</span></span>
+          </div>
+          <p class="footer-desc">
+            MobileGearX is an independent technology review and Amazon product recommendation platform. We help consumers find reliable tech gear through clear breakdowns and verified deals.
+          </p>
+          <div class="footer-affiliate-box">
+            <strong class="footer-affiliate-strong">Amazon Associate Disclosure:</strong>
+            As an Amazon Associate I earn from qualifying purchases. MobileGearX may earn a commission when you buy through links on our site, at no additional cost to you.
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html#affiliate-disclosure">Affiliate Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Categories -->
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=Wireless%20Earbuds">Wireless Earbuds</a></li>
+            <li><a href="products.html?category=Headphones">Headphones</a></li>
+            <li><a href="products.html?category=Smart%20Watches">Smart Watches</a></li>
+            <li><a href="products.html?category=Mobile%20Accessories">Mobile Accessories</a></li>
+            <li><a href="products.html?category=Chargers">Chargers</a></li>
+            <li><a href="products.html?category=Computer%20Accessories">Computer Accessories</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Socials -->
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <p class="footer-desc" style="margin-bottom: 12px;">
+            Questions, review suggestions, or business inquiries?
+          </p>
+          <ul class="footer-links" style="margin-bottom: 18px;">
+            <li><strong>Email:</strong> <a href="mailto:waseemullah100436@gmail.com">waseemullah100436@gmail.com</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/923357008286" target="_blank" rel="noopener noreferrer">+92 335 7008286</a></li>
+          </ul>
+          <div class="social-buttons">
+            <a href="https://www.facebook.com/share/1NwS8vJHuy/" target="_blank" rel="noopener noreferrer" class="social-btn social-facebook" title="Follow MobileGearX on Facebook">
+              Facebook
+            </a>
+            <a href="https://www.tiktok.com/@futureking2007" target="_blank" rel="noopener noreferrer" class="social-btn social-tiktok" title="Follow MobileGearX on TikTok">
+              TikTok
+            </a>
+            <a href="https://youtube.com/@waseemullah-n8q" target="_blank" rel="noopener noreferrer" class="social-btn social-youtube" title="Subscribe to MobileGearX on YouTube">
+              YouTube
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 MobileGearX. All rights reserved. Brand Tagline: Tech Review. Amazon Deals.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

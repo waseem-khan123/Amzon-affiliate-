@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" rx="12" fill="#F8FAFC"/>
+  <circle cx="200" cy="150" r="100" fill="#E2E8F0" opacity="0.6"/>
+  <!-- Headband -->
+  <path d="M 120 180 C 120 70, 280 70, 280 180" fill="none" stroke="#1E293B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 140 160 C 140 95, 260 95, 260 160" fill="none" stroke="#FF9900" stroke-width="5" stroke-linecap="round"/>
+  <!-- Left Ear Cushion -->
+  <g transform="translate(90, 150)">
+    <rect x="0" y="0" width="50" height="90" rx="22" fill="#0F172A" stroke="#FF9900" stroke-width="3"/>
+    <rect x="10" y="10" width="30" height="70" rx="15" fill="#334155"/>
+  </g>
+  <!-- Right Ear Cushion -->
+  <g transform="translate(260, 150)">
+    <rect x="0" y="0" width="50" height="90" rx="22" fill="#0F172A" stroke="#FF9900" stroke-width="3"/>
+    <rect x="10" y="10" width="30" height="70" rx="15" fill="#334155"/>
+  </g>
+</svg>

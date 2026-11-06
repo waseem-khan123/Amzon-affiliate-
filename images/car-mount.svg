@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" rx="12" fill="#F8FAFC"/>
+  <circle cx="200" cy="150" r="100" fill="#E2E8F0" opacity="0.6"/>
+  <!-- Mount base / vent clip -->
+  <rect x="185" y="190" width="30" height="60" rx="6" fill="#334155"/>
+  <path d="M 170 230 L 230 230" stroke="#0F172A" stroke-width="8" stroke-linecap="round"/>
+  <!-- Ball Joint -->
+  <circle cx="200" cy="180" r="18" fill="#64748B"/>
+  <!-- Magnetic Disc Pad -->
+  <circle cx="200" cy="120" r="60" fill="#0F172A" stroke="#FF9900" stroke-width="4"/>
+  <circle cx="200" cy="120" r="42" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="10 6"/>
+  <circle cx="200" cy="120" r="15" fill="#1E293B"/>
+  <text x="200" y="125" fill="#FF9900" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">⚡</text>
+</svg>
